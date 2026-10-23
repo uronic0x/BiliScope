@@ -1,0 +1,13 @@
+# 虚拟环境与运行时
+.venv/
+runtime/
+
+# Python 编译产物
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 测试与缓存
+.pytest_cache/
+*.log

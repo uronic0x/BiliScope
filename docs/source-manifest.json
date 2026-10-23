@@ -1,0 +1,755 @@
+{
+  "created": "2026-10-22",
+  "scope": "Windows x64 CPython 3.12 wheel inventory; installer lock also contains hashes for CPython 3.13/3.14 and development platforms.",
+  "assurance": "Source traceability and archive hashes; not a claim of bit-for-bit reproducible builds or a full native static-link audit. Windows platform runtime dependencies remain platform components.",
+  "components": [
+    {
+      "name": "av",
+      "version": "19.0.2",
+      "wheel": "av-19.0.2-cp312-abi3-win_amd64.whl",
+      "wheel_sha256": "3ce5a1d7b916d13c16ac58f1756f0fee4af2d53f02bc1403e18550b50d375a22",
+      "license": "BSD-3-Clause; bundled LGPL/GPL codec licenses",
+      "source_projects": [
+        "https://github.com/PyAV-Org/PyAV/tree/v19.0.2",
+        "https://github.com/PyAV-Org/pyav-ffmpeg",
+        "https://github.com/FFmpeg/FFmpeg"
+      ],
+      "binary_files": [
+        {
+          "path": "av/bitstream.pyd",
+          "sha256": "9c19e50cda6272e9c05a0e01214fdc5ba3408ceb113b1298fedb740d5e1d5688",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/buffer.pyd",
+          "sha256": "5fad707c96cade2a3032249995608e5ef91b3793eaf2506b83a5688ffd45bee1",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/device.pyd",
+          "sha256": "07be8e1db22c933fe250d407d7052e9a782c06717f3796c882c60171287d7a50",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/dictionary.pyd",
+          "sha256": "46d4ef32bfeac6a449c934c222dc78377d471cbc06f6959060380f9d8fa5f619",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/error.pyd",
+          "sha256": "d44f741c954856d16e1b3d3571cfb3c31df92f1e51209060e761426fb965f821",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/format.pyd",
+          "sha256": "61e8e5f0b89e47c6152af9e588d97f7c0f89412e0b6463806ddcd0e1bdcf3c71",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/frame.pyd",
+          "sha256": "cf92ad1272087e97b24c86717b270c7b3b6fa865029bb31bebac3d75a602d30a",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/index.pyd",
+          "sha256": "b48327dc7a92427b680c633d4e231ed57d5e77ff956c9939cc6dae5406f147fd",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/logging.pyd",
+          "sha256": "77e2b494ab1b58c6d24a6ebe1e5542516c93331501ca85e9df88f97e4e0e59b1",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/opaque.pyd",
+          "sha256": "239b91a2e3e98106f8fbc33d177e1b736cbe1c35894590b0f37e6719a410fad6",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/packet.pyd",
+          "sha256": "69a777be0b9dbdc2db5734fe32e1214c25eb5897cbeeb7a36e1822326623df22",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/plane.pyd",
+          "sha256": "057e9f3a2badd3f0f4a753d69168fb7fc5a147bc5f91b9aa854e259809aceeb2",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/rational.pyd",
+          "sha256": "f942cb2cc77d0e4caaf1f3e9a525f6fcb776749a9913e68296ab08ba5174608e",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/stream.pyd",
+          "sha256": "ba71b9618e79e7b016bd588130a3613dd37481fc9d1724c8698450642410f24c",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/utils.pyd",
+          "sha256": "d3b04bdd3301a7cea8e7b0310104fd71fa7ef12fc36925a89928cee94dccce34",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/_core.pyd",
+          "sha256": "95be47c22953a6721f31bd243e3cc4abf2c073a989f7ea9c6620abeac6d4968a",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/_cyutil.pyd",
+          "sha256": "1d9b1ce1b2e2ad9428c58beadaec66d45b40a14a32e333574b8985fbb1835ff2",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/audio/codeccontext.pyd",
+          "sha256": "845df82420c19b09b8c1cf09d9839451e00feb0a00968dde3c88ff05c0740e3e",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/audio/fifo.pyd",
+          "sha256": "467c7f2b11384a4d6c8e8befe9b705208376f61a0c17bbd5f5ec87f9b97ff5b4",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/audio/format.pyd",
+          "sha256": "4766c9b6658fcf2fe389c2a5a7d44d322e1488b7b7cb7146e846f4ae3e63c157",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/audio/frame.pyd",
+          "sha256": "ca389c07ec692f9a9bfeab21dba4b6e02d17d08a8db0db8e88eef385e7ebd174",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/audio/layout.pyd",
+          "sha256": "59c50ab6f13948316a377aaf683c043b56eba89017d8efeb1761a3269aceef0b",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/audio/plane.pyd",
+          "sha256": "a015b48e64c898fd473a9a2f25e504f730b359097c7c858e7620266f3364604a",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/audio/resampler.pyd",
+          "sha256": "34cdeec46d57a7aa9383edde6788f1bb85f60cdc7665e6ecb16666d13a51c96e",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/audio/stream.pyd",
+          "sha256": "e55dd87b43d5a582f168d12a6c91906bb1fce46467c993de9c3cad8648fee50f",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/codec/codec.pyd",
+          "sha256": "27d744fc0596a03f5f3e5603dcca6b8019f30354d167a4dd8d67fb127594a1f4",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/codec/context.pyd",
+          "sha256": "79055d540ec15a54afe894befdc1852d608507f9748b4f83c9470a989fc5da5a",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/codec/hwaccel.pyd",
+          "sha256": "54ed579d10bce20f7428c7d8c7f0a51bec972597a6a499c70cc395ae794ff70f",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/container/core.pyd",
+          "sha256": "83751a9b2be16d6e11ed87787a218dcb9cd02f56bed91e0f8e290283ac9c86ba",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/container/input.pyd",
+          "sha256": "3b9d4d5a7caf7a67af8013e8773dcd0ae3e18493c32ff27c407c69de2dec7584",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/container/output.pyd",
+          "sha256": "6592ccbae0b89a3814147e99425996c64c562c61d49a33610ca87d2649e01a7e",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/container/pyio.pyd",
+          "sha256": "302f1004566e59b00092e4e18e111629fea1b8bfe711705363a8f41df590aa79",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/container/streams.pyd",
+          "sha256": "6634aab660492936ebec66e69d4af79454ef74c4c26e90908b6fe5ce69d8244a",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/filter/context.pyd",
+          "sha256": "88ea520ba401cf4669a58779465eaa09816645bc9a31c56e843be36dfd9a52da",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/filter/filter.pyd",
+          "sha256": "8c09c0909d84a24b349fd50c4e7846af324941ec61d742488ef1d21e5a2aaf1f",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/filter/graph.pyd",
+          "sha256": "0f8686b2094bb2d3c8c44ce59d8210a57df5e203fc1b11e70dd7645455ae6205",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/filter/link.pyd",
+          "sha256": "711f289214dd0baee85b69a044e762ea10a9fbce1c7dd0a046663eb8ae2c7e17",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/filter/loudnorm.pyd",
+          "sha256": "24e63377d720f3998f56b55d8b8b3a3e8601a1a0ec0c3abce32946ca1ededc65",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/sidedata/encparams.pyd",
+          "sha256": "682692b34b6ec8205a2c179ff3008f28f0db397794f072a2cb5861dc896d8118",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/sidedata/motionvectors.pyd",
+          "sha256": "0982c5a70d4bd74628c4c0ce800ad8754715c89c8a11fe4ce04a436b1527e442",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/sidedata/sidedata.pyd",
+          "sha256": "ca3187bb2a2e99018588cbaa22780355a49b5f0dec04f8b0b7545a499f6e9cf3",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/subtitles/codeccontext.pyd",
+          "sha256": "b9eb3a57eea0f84d32c8bfb723cb3c4481a3fc9f47218093fde1adfa2d01a4ea",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/subtitles/stream.pyd",
+          "sha256": "7054b83eaffc3d00fd87861f60c44e4579d9cafe3a17dc269179d90b5fe1efa6",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/subtitles/subtitle.pyd",
+          "sha256": "0416ed1fa59a24b828f111e87f576ad69bd924eb25859f3dea498e80f98fba99",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/video/codeccontext.pyd",
+          "sha256": "bd0a03ac04b1b1f747a63d75e9919467839ab2c5879ff865cbcd32c0ababbe0f",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/video/format.pyd",
+          "sha256": "c584629a071362ac0cfcbe801303d74d69850e0aeba455368852dbebe18fe3bb",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/video/frame.pyd",
+          "sha256": "21a21196f805402d0c0a8491579c7f3dfab30507936dd23eb4273a21892ac869",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/video/plane.pyd",
+          "sha256": "8d97555f896ff18f9206a7eea3203b80e75ad0e96348c02d931c04b6345d5186",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/video/reformatter.pyd",
+          "sha256": "ab2ebe2cd1d47f78903753b60b691675fa3b3edcd5e40fb00475e5b6b21b71b8",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av/video/stream.pyd",
+          "sha256": "b5db14bb55eaf4b07e638d64ae3983fed32d3516a9c8d0779aa616f301364c7d",
+          "source_project": "https://github.com/PyAV-Org/PyAV/tree/v19.0.2"
+        },
+        {
+          "path": "av.libs/avcodec-63-2756d4fffb772585dcdece87427716a4.dll",
+          "sha256": "8e13fdedbeefb6a8b5d22b567122ec3c00384add569de9e589e53a86bd08422c",
+          "source_project": "https://github.com/FFmpeg/FFmpeg"
+        },
+        {
+          "path": "av.libs/avdevice-63-2b26d22512639c049532c0bc6f6c022f.dll",
+          "sha256": "43247c1bdaaec40977738037fdea7e8b779b3e93213dd529b1d25735b3099d8c",
+          "source_project": "https://github.com/FFmpeg/FFmpeg"
+        },
+        {
+          "path": "av.libs/avfilter-12-87c7677b784d3ea4ecceb3e6cae9c9f1.dll",
+          "sha256": "a9b9e84178dd73162f47a3a531c321fad955ca3a7ff04a9517db7e7c78bf9ab2",
+          "source_project": "https://github.com/FFmpeg/FFmpeg"
+        },
+        {
+          "path": "av.libs/avformat-63-e8c4f8fc30664f2b7e85dcc683bd4b0d.dll",
+          "sha256": "49759edae5286f10e4b11a442f51fb70bacde1f92b7b876038231c4d8140c506",
+          "source_project": "https://github.com/FFmpeg/FFmpeg"
+        },
+        {
+          "path": "av.libs/avutil-61-e540ec7976bbd26a4a94dc737be3001c.dll",
+          "sha256": "ff2ba1b0d884336d53f1aee7b05873c5a3bbb987d0ffc79a49b92ed77579cd19",
+          "source_project": "https://github.com/FFmpeg/FFmpeg"
+        },
+        {
+          "path": "av.libs/libdav1d-5469d6ef7baf7426269a9483c24587b7.dll",
+          "sha256": "5469d6ef7baf7426269a9483c24587b77bf6cb6a005f2bd98443a396f528e82b",
+          "source_project": "https://code.videolan.org/videolan/dav1d"
+        },
+        {
+          "path": "av.libs/libgcc_s_seh-1-3e3b83c1f8de213bb810010a5622b180.dll",
+          "sha256": "502e8318a096f0bfb26d9f628f768bfab72853eabc1b6b262f2412263aad605b",
+          "source_project": "https://gcc.gnu.org/git.html"
+        },
+        {
+          "path": "av.libs/libiconv-2-5e7e51fe6a6e182df6c9f30f41700345.dll",
+          "sha256": "5e7e51fe6a6e182df6c9f30f4170034575acd10d2079c3f1098411d21a311619",
+          "source_project": "https://www.gnu.org/software/libiconv/"
+        },
+        {
+          "path": "av.libs/libopus-0-278e2dd25a2793d306204c9d966fe0de.dll",
+          "sha256": "278e2dd25a2793d306204c9d966fe0dee6b4f56659b1ea7b759897e406980d79",
+          "source_project": "https://github.com/xiph/opus"
+        },
+        {
+          "path": "av.libs/libsharpyuv-90c3f670f207c806d3e44db799e78832.dll",
+          "sha256": "90c3f670f207c806d3e44db799e78832750826c47a0cf8dea907603d240f9dbe",
+          "source_project": "https://chromium.googlesource.com/webm/libwebp/"
+        },
+        {
+          "path": "av.libs/libstdc++-6-7ad22040206bf70776b13a24ec3f87b2.dll",
+          "sha256": "1cba2ca3b6f410fa4b03b01b479f7663493ea9903857cd753dc8dbc772f67447",
+          "source_project": "https://gcc.gnu.org/git.html"
+        },
+        {
+          "path": "av.libs/libSvtAv1Enc-7a2b2046575991edd70ef501ca085458.dll",
+          "sha256": "7a2b2046575991edd70ef501ca085458ebdff3bf96282350057ae1dee0afaf9f",
+          "source_project": "https://gitlab.com/AOMediaCodec/SVT-AV1"
+        },
+        {
+          "path": "av.libs/libvmaf-e1698aa5c58a07400697833b5f19b0a3.dll",
+          "sha256": "12e93e157295be651758eee56af4ed95c6a2ee5b3b91c65a83c8c6818af4c35f",
+          "source_project": "https://github.com/Netflix/vmaf"
+        },
+        {
+          "path": "av.libs/libvpl-45cd70cb42c579529a30ad6fc282c626.dll",
+          "sha256": "1a0bc607afbd8a224cc0c2db6fd5efa51245d7715ff1b659c16b47e773009115",
+          "source_project": "https://github.com/intel/libvpl"
+        },
+        {
+          "path": "av.libs/libvpx-1-dd81d2b55a771749d485047772201cc1.dll",
+          "sha256": "738629b026940c256dfe988a62062bdc96ae5065d13163bf7e579dc95a4634f4",
+          "source_project": "https://chromium.googlesource.com/webm/libvpx/"
+        },
+        {
+          "path": "av.libs/libwebp-abac96c4759f9eb9b31588c8a839816c.dll",
+          "sha256": "e253a4adb1c133a690662e46d8c41e0a3b81b0e62d0f3a5e1a1109484a020dca",
+          "source_project": "https://chromium.googlesource.com/webm/libwebp/"
+        },
+        {
+          "path": "av.libs/libwebpmux-0b9545d83accdb1110a7efa5d1c54007.dll",
+          "sha256": "ce17228391b86192f201da1ce9c345ff5f7a9c1eca95ab04150491c24032f74e",
+          "source_project": "https://chromium.googlesource.com/webm/libwebp/"
+        },
+        {
+          "path": "av.libs/libwinpthread-1-3e9f18fdf7e856e1e9fedd138e84e874.dll",
+          "sha256": "3e9f18fdf7e856e1e9fedd138e84e874542e8717272fa7fdae5d0d826e88658c",
+          "source_project": "https://github.com/mingw-w64/mingw-w64"
+        },
+        {
+          "path": "av.libs/libx264-165-0f71f37cf3f3ee0e2ecac2b06829e9ff.dll",
+          "sha256": "0f71f37cf3f3ee0e2ecac2b06829e9ff3cf2b3e237f25bb14aef6b8de14cd777",
+          "source_project": "https://code.videolan.org/videolan/x264"
+        },
+        {
+          "path": "av.libs/libx265-ee9d492f3fb55d0a3b564bb1bf4f6822.dll",
+          "sha256": "efe075f1ee008c722eb71adfe00d926071836d777cc9ef23b59c9ecb9db7d57f",
+          "source_project": "https://bitbucket.org/multicoreware/x265_git/"
+        },
+        {
+          "path": "av.libs/swresample-7-4f9462a1fb73b949ccad2774dd941624.dll",
+          "sha256": "a8bfee136c4c4e49d95b4439b1b80136504b2783cf93638f64bd3ad7de8e0ebe",
+          "source_project": "https://github.com/FFmpeg/FFmpeg"
+        },
+        {
+          "path": "av.libs/swscale-10-9af0a10ad7003982e48548ff39e98465.dll",
+          "sha256": "f2956978470b3ed26c4f5db80b45d4c3a9188a4a8622133f73ded71504df85d6",
+          "source_project": "https://github.com/FFmpeg/FFmpeg"
+        },
+        {
+          "path": "av.libs/zlib1-4d767210e087ff082d94ef0a09ddc7f8.dll",
+          "sha256": "4d767210e087ff082d94ef0a09ddc7f8c04316c64d69d5a7b9ee802ceab407dd",
+          "source_project": "https://github.com/madler/zlib"
+        }
+      ],
+      "upstream_license_files": [
+        "av-19.0.2.dist-info/licenses/AUTHORS.py",
+        "av-19.0.2.dist-info/licenses/AUTHORS.rst",
+        "av-19.0.2.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "greenlet",
+      "version": "3.5.6",
+      "wheel": "greenlet-3.5.6-cp312-cp312-win_amd64.whl",
+      "wheel_sha256": "7ac4abb3877c43af320392c664774eef6fa2cc063c79a55fc02d844a3cbe7395",
+      "license": "MIT AND Python-2.0",
+      "source_projects": [
+        "https://github.com/python-greenlet/greenlet/tree/3.5.6"
+      ],
+      "binary_files": [
+        {
+          "path": "greenlet/_greenlet.cp312-win_amd64.pyd",
+          "sha256": "891643fc69106d0a91cefbea0d660819b168e56b6991b6dc64c4122a2f2493f2",
+          "source_project": "https://github.com/python-greenlet/greenlet/tree/3.5.6"
+        },
+        {
+          "path": "greenlet/tests/_test_extension.cp312-win_amd64.pyd",
+          "sha256": "9841290a95cbf564f9aa83878a06b3c524d54758d8c996227ab93782759f109d",
+          "source_project": "https://github.com/python-greenlet/greenlet/tree/3.5.6"
+        },
+        {
+          "path": "greenlet/tests/_test_extension_cpp.cp312-win_amd64.pyd",
+          "sha256": "ec5236b182d6247479e216c7cc1dc0e69ad9122f6ff6d3bad48800e189ac6b4f",
+          "source_project": "https://github.com/python-greenlet/greenlet/tree/3.5.6"
+        }
+      ],
+      "upstream_license_files": [
+        "greenlet-3.5.6.dist-info/licenses/LICENSE",
+        "greenlet-3.5.6.dist-info/licenses/LICENSE.PSF"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.4",
+      "wheel": "numpy-2.5.4-cp312-cp312-win_amd64.whl",
+      "wheel_sha256": "a7b1b6353e36a7e50de2973a38d705c88ee93adcf120673cee7f45a4a3fa223a",
+      "license": "BSD-3-Clause and bundled licenses",
+      "source_projects": [
+        "https://github.com/numpy/numpy/tree/v2.5.4",
+        "https://github.com/OpenMathLib/OpenBLAS",
+        "https://github.com/microsoft/STL"
+      ],
+      "binary_files": [
+        {
+          "path": "numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd",
+          "sha256": "4f008612d6b9e2ab3820ee17a1c758c499e45e80a36764c9dfb7bf304b066f03",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/linalg/lapack_lite.cp312-win_amd64.pyd",
+          "sha256": "7558dc0d0a5ef5f584d40f0caf3914c1e6ed8f09632000d1be1b8e240c9a1d67",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/linalg/_umath_linalg.cp312-win_amd64.pyd",
+          "sha256": "03bc9de2d6d8e2d9ea3ec781f3c16bcbc9960095cc02ca588f4229cd1560c661",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/bit_generator.cp312-win_amd64.pyd",
+          "sha256": "c7f637df1fa0db9fe4bba6c05dac680d89aed245401423f1ffd16d93366a35a7",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/mtrand.cp312-win_amd64.pyd",
+          "sha256": "e8bdaf22830ceaabc596854a816d39d96d1d60e96c2e12a9a17950b624d480a1",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/_bounded_integers.cp312-win_amd64.pyd",
+          "sha256": "927c1673ba698a85e6253b4d8d2223eb019b021792c54604489767c694d2ab93",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/_common.cp312-win_amd64.pyd",
+          "sha256": "712a7bb4b2d3e56548cdf255eb4e6c1ca0737d7d81d76f09bdccebb0703ae572",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/_generator.cp312-win_amd64.pyd",
+          "sha256": "0fa509dcf5ae21910cb2b3c74271977d0fac7fab15ffd5f32017e08b97e71de6",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/_mt19937.cp312-win_amd64.pyd",
+          "sha256": "e6938df4dd3a193b7d9171d3e192702be3a70de2ebe866cf6fcd92f9e368349d",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/_pcg64.cp312-win_amd64.pyd",
+          "sha256": "8eb5569b221d40884093def83d897376bddd99c9279f182b9db3145b9b897d34",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/_philox.cp312-win_amd64.pyd",
+          "sha256": "cc0c03e2c1443e8981300ddb9cc5ceb504e7f8494323d4ec0a1ad95ae16fbf75",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/random/_sfc64.cp312-win_amd64.pyd",
+          "sha256": "20c551734cd2b2be2425c8773b795f1e92de8826ebbe6c1103cd0fa6b5c94408",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/_core/_multiarray_tests.cp312-win_amd64.pyd",
+          "sha256": "f09f60242eaed510e1af6384284f53ff56ae42770a62e630bd415bc2b6854d66",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/_core/_multiarray_umath.cp312-win_amd64.pyd",
+          "sha256": "9c10617e66e992b5ac6d9f78fe7cedd0011618e1c2f89d09a185bb63073e2c90",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/_core/_operand_flag_tests.cp312-win_amd64.pyd",
+          "sha256": "1a392918237439dcb48a6562ae7d44d4e12b5c9d4d7333ffb377ba795c94bb47",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/_core/_rational_tests.cp312-win_amd64.pyd",
+          "sha256": "78d4ee6d7f8a0c2ff10d4e093e10f4bf5d27ebbdb434b8c1a4a837d7c6b47081",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/_core/_simd.cp312-win_amd64.pyd",
+          "sha256": "cf6064fb2c44cc27983359b0c7e19e53e16e585357fc33783a6a93ea50e35022",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/_core/_struct_ufunc_tests.cp312-win_amd64.pyd",
+          "sha256": "d82ae25c7b7e370b47bf71f768452528b22aac055074786a7a81465028a26a1d",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy/_core/_umath_tests.cp312-win_amd64.pyd",
+          "sha256": "0c955075230dde0907ee573e470cedc97f771fb10fda2c528d1b9cafadbb06f5",
+          "source_project": "https://github.com/numpy/numpy/tree/v2.5.4"
+        },
+        {
+          "path": "numpy.libs/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+          "sha256": "ed4f167a5330424524f45258e7ca2c8d7f03c0cba1f30ee4985553ac1f88ecf8",
+          "source_project": "https://github.com/OpenMathLib/OpenBLAS"
+        },
+        {
+          "path": "numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+          "sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde",
+          "source_project": "https://github.com/microsoft/STL"
+        }
+      ],
+      "upstream_license_files": [
+        "numpy/ma/LICENSE",
+        "numpy/random/LICENSE.md",
+        "numpy/_core/include/numpy/random/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE"
+      ]
+    },
+    {
+      "name": "patchright",
+      "version": "1.64.2",
+      "wheel": "patchright-1.64.2-py3-none-win_amd64.whl",
+      "wheel_sha256": "46d2a444d5c97bab24243521fe4a515fc6fd9433ff6536aee87f8bc3ab250cad",
+      "license": "Apache-2.0",
+      "source_projects": [
+        "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python/tree/1.64.2",
+        "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
+        "https://github.com/microsoft/playwright-python",
+        "https://github.com/nodejs/node"
+      ],
+      "binary_files": [
+        {
+          "path": "patchright/driver/node.exe",
+          "sha256": "d702daa815eabbff763c7d3808e235cf031cf2ca70211b56847bc72f51e240e5",
+          "source_project": "https://github.com/nodejs/node"
+        }
+      ],
+      "upstream_license_files": [
+        "patchright/driver/LICENSE",
+        "patchright/driver/package/ThirdPartyNotices.txt",
+        "patchright/driver/package/lib/serverRegistry.js.LICENSE",
+        "patchright/driver/package/lib/utilsBundle.js.LICENSE",
+        "patchright/driver/package/lib/webp_codec.LICENSE",
+        "patchright-1.64.2.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pyee",
+      "version": "14.0.0",
+      "wheel": "pyee-14.0.0-py3-none-any.whl",
+      "wheel_sha256": "3ac2d3229a9677f7de2c33d7f52fe25b638a46b19c413fea2edc8c6d0a644e4d",
+      "license": "MIT",
+      "source_projects": [
+        "https://github.com/jfhbrook/pyee/tree/v14.0.0"
+      ],
+      "binary_files": [],
+      "upstream_license_files": [
+        "pyee-14.0.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "sherpa_onnx",
+      "version": "1.13.8",
+      "wheel": "sherpa_onnx-1.13.8-cp312-cp312-win_amd64.whl",
+      "wheel_sha256": "566e49ad3fb2aa8ceb723a52f9809aa6c2ee0a5eb3b0946c3fd2374af807a5c6",
+      "license": "Apache-2.0",
+      "source_projects": [
+        "https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8"
+      ],
+      "binary_files": [
+        {
+          "path": "sherpa_onnx/lib/_sherpa_onnx.cp312-win_amd64.pyd",
+          "sha256": "c7cbe8071492dde37f7c9d640fd882ff52f62073c5214741c74178502aa6c593",
+          "source_project": "https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8"
+        }
+      ],
+      "upstream_license_files": [
+        "sherpa_onnx-1.13.8.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "sherpa_onnx_core",
+      "version": "1.13.8",
+      "wheel": "sherpa_onnx_core-1.13.8-py3-none-win_amd64.whl",
+      "wheel_sha256": "5579e80196d516e6dae23c8f629292ce3142ab8869925d32b94612fd86f93733",
+      "license": "Apache-2.0; third-party notices apply",
+      "source_projects": [
+        "https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8",
+        "https://github.com/microsoft/onnxruntime",
+        "https://github.com/csukuangfj/kaldi-native-fbank"
+      ],
+      "binary_files": [
+        {
+          "path": "sherpa_onnx/lib/onnxruntime.dll",
+          "sha256": "7f66f939a881baf4f46a2216496798edf4a1429878b646d12674aa62f27d8a25",
+          "source_project": "https://github.com/microsoft/onnxruntime"
+        },
+        {
+          "path": "sherpa_onnx/lib/sherpa-onnx-c-api.dll",
+          "sha256": "2729a0da3fbd20fb4e14e157f7cc0e00af848b55f04121319d445c138aeba214",
+          "source_project": "https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8"
+        },
+        {
+          "path": "sherpa_onnx/lib/sherpa-onnx-cxx-api.dll",
+          "sha256": "5b92c60d4a73d340f5453e17b1c5caf28a6f3baec08dcb8d8951bd3ea842fbe5",
+          "source_project": "https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8"
+        },
+        {
+          "path": "sherpa_onnx_core-1.13.8.data/data/Scripts/onnxruntime.dll",
+          "sha256": "7f66f939a881baf4f46a2216496798edf4a1429878b646d12674aa62f27d8a25",
+          "source_project": "https://github.com/microsoft/onnxruntime"
+        },
+        {
+          "path": "sherpa_onnx_core-1.13.8.data/data/Scripts/sherpa-onnx-c-api.dll",
+          "sha256": "2729a0da3fbd20fb4e14e157f7cc0e00af848b55f04121319d445c138aeba214",
+          "source_project": "https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8"
+        },
+        {
+          "path": "sherpa_onnx_core-1.13.8.data/data/Scripts/sherpa-onnx-cxx-api.dll",
+          "sha256": "5b92c60d4a73d340f5453e17b1c5caf28a6f3baec08dcb8d8951bd3ea842fbe5",
+          "source_project": "https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8"
+        }
+      ],
+      "upstream_license_files": []
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.15.0",
+      "wheel": "typing_extensions-4.15.0-py3-none-any.whl",
+      "wheel_sha256": "f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548",
+      "license": "PSF-2.0",
+      "source_projects": [
+        "https://github.com/python/typing_extensions/tree/4.15.0"
+      ],
+      "binary_files": [],
+      "upstream_license_files": [
+        "typing_extensions-4.15.0.dist-info/licenses/LICENSE"
+      ]
+    }
+  ],
+  "chromium": {
+    "Win_x64": {
+      "snapshot": "1725026",
+      "revisions": {
+        "chromium_revision": "1725026",
+        "got_angle_revision": "77d1470647fbd59e0d1bc962fb846fe207cf8007",
+        "got_dawn_revision": "1b3c9587bd5da5479a022014b8c7c08b6d8110bd",
+        "got_revision": "bc4abbde6ccb765322eb477642073c43f3f82e9c",
+        "got_revision_cp": "refs/heads/main@{#1725026}",
+        "got_swiftshader_revision": "cddb5c91b23ff70a1f607ea31610aa0d7f4b5ad5",
+        "got_v8_revision": "0c06dd4d64d57e5c2dff33c5b54900075d45ae5f",
+        "got_v8_revision_cp": "refs/heads/15.8.41@{#1}",
+        "got_webrtc_revision": "a68a53e42a4dc3c2e2212858a0ae137260497973",
+        "got_webrtc_revision_cp": "refs/heads/main@{#49010}",
+        "v8_revision": "1",
+        "v8_revision_git": "0c06dd4d64d57e5c2dff33c5b54900075d45ae5f"
+      },
+      "base_url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1725026",
+      "archive": "chrome-win.zip",
+      "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1725026/chrome-win.zip",
+      "sha256": "783fd8d51d57c85320efd6039d844962a31f0676fafef5b17eb5cf91f085a77d",
+      "size": 368608148,
+      "executable": "chrome-win/chrome.exe",
+      "source": "https://chromium.googlesource.com/chromium/src/+/bc4abbde6ccb765322eb477642073c43f3f82e9c"
+    },
+    "Linux_x64": {
+      "snapshot": "1725108",
+      "revisions": {
+        "chromium_revision": "1725108",
+        "got_angle_revision": "9aa6e68af661850b97cc8b6970f4dcfb050884a3",
+        "got_dawn_revision": "1b3c9587bd5da5479a022014b8c7c08b6d8110bd",
+        "got_revision": "2a19fedacef105c7d492b6d8847118f0c3d5eb88",
+        "got_revision_cp": "refs/heads/main@{#1725108}",
+        "got_swiftshader_revision": "cddb5c91b23ff70a1f607ea31610aa0d7f4b5ad5",
+        "got_v8_revision": "9835720104b0c1bfe894367195d1f3fe0c00e49b",
+        "got_v8_revision_cp": "refs/heads/15.8.44@{#1}",
+        "got_webrtc_revision": "a68a53e42a4dc3c2e2212858a0ae137260497973",
+        "got_webrtc_revision_cp": "refs/heads/main@{#49010}",
+        "v8_revision": "1",
+        "v8_revision_git": "9835720104b0c1bfe894367195d1f3fe0c00e49b"
+      },
+      "base_url": "https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1725108",
+      "archive": "chrome-linux.zip",
+      "url": "https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1725108/chrome-linux.zip",
+      "sha256": "d0c67fb498bf267cbc947ae01754704a6f64796ddd6ce8496cf623eb0f5c6059",
+      "size": 253861665,
+      "executable": "chrome-linux/chrome",
+      "source": "https://chromium.googlesource.com/chromium/src/+/2a19fedacef105c7d492b6d8847118f0c3d5eb88"
+    }
+  },
+  "model": {
+    "revision": "bb53ee204431c90d314c1cc08d28d23e5b7927cc",
+    "base_url": "https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base/resolve/bb53ee204431c90d314c1cc08d28d23e5b7927cc",
+    "files": [
+      {
+        "name": "base-encoder.int8.onnx",
+        "sha256": "0b8fb1304b6109976038efff5ace81720e00386f3ff6b54ee8c75291ca0a1e11",
+        "size": 29120534
+      },
+      {
+        "name": "base-decoder.int8.onnx",
+        "sha256": "9759d217388a01b3a4c7c15533201067b48ae819c4daafc8624e64b9409dc02d",
+        "size": 130672026
+      },
+      {
+        "name": "base-tokens.txt",
+        "sha256": "b34b360dbb493e781e479794586d661700670d65564001f23024971d1f2fa126",
+        "size": 816730
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "wheel": "av-19.0.2-cp312-abi3-win_amd64.whl",
+    "binaries": [
+      "av/bitstream.pyd",
+      "av/buffer.pyd",
+      "av/device.pyd",
+      "av/dictionary.pyd",
+      "av/error.pyd",
+      "av/format.pyd",
+      "av/frame.pyd",
+      "av/index.pyd",
+      "av/logging.pyd",
+      "av/opaque.pyd",
+      "av/packet.pyd",
+      "av/plane.pyd",
+      "av/rational.pyd",
+      "av/stream.pyd",
+      "av/utils.pyd",
+      "av/_core.pyd",
+      "av/_cyutil.pyd",
+      "av/audio/codeccontext.pyd",
+      "av/audio/fifo.pyd",
+      "av/audio/format.pyd",
+      "av/audio/frame.pyd",
+      "av/audio/layout.pyd",
+      "av/audio/plane.pyd",
+      "av/audio/resampler.pyd",
+      "av/audio/stream.pyd",
+      "av/codec/codec.pyd",
+      "av/codec/context.pyd",
+      "av/codec/hwaccel.pyd",
+      "av/container/core.pyd",
+      "av/container/input.pyd",
+      "av/container/output.pyd",
+      "av/container/pyio.pyd",
+      "av/container/streams.pyd",
+      "av/filter/context.pyd",
+      "av/filter/filter.pyd",
+      "av/filter/graph.pyd",
+      "av/filter/link.pyd",
+      "av/filter/loudnorm.pyd",
+      "av/sidedata/encparams.pyd",
+      "av/sidedata/motionvectors.pyd",
+      "av/sidedata/sidedata.pyd",
+      "av/subtitles/codeccontext.pyd",
+      "av/subtitles/stream.pyd",
+      "av/subtitles/subtitle.pyd",
+      "av/video/codeccontext.pyd",
+      "av/video/format.pyd",
+      "av/video/frame.pyd",
+      "av/video/plane.pyd",
+      "av/video/reformatter.pyd",
+      "av/video/stream.pyd",
+      "av.libs/avcodec-63-2756d4fffb772585dcdece87427716a4.dll",
+      "av.libs/avdevice-63-2b26d22512639c049532c0bc6f6c022f.dll",
+      "av.libs/avfilter-12-87c7677b784d3ea4ecceb3e6cae9c9f1.dll",
+      "av.libs/avformat-63-e8c4f8fc30664f2b7e85dcc683bd4b0d.dll",
+      "av.libs/avutil-61-e540ec7976bbd26a4a94dc737be3001c.dll",
+      "av.libs/libdav1d-5469d6ef7baf7426269a9483c24587b7.dll",
+      "av.libs/libgcc_s_seh-1-3e3b83c1f8de213bb810010a5622b180.dll",
+      "av.libs/libiconv-2-5e7e51fe6a6e182df6c9f30f41700345.dll",
+      "av.libs/libopus-0-278e2dd25a2793d306204c9d966fe0de.dll",
+      "av.libs/libsharpyuv-90c3f670f207c806d3e44db799e78832.dll",
+      "av.libs/libstdc++-6-7ad22040206bf70776b13a24ec3f87b2.dll",
+      "av.libs/libSvtAv1Enc-7a2b2046575991edd70ef501ca085458.dll",
+      "av.libs/libvmaf-e1698aa5c58a07400697833b5f19b0a3.dll",
+      "av.libs/libvpl-45cd70cb42c579529a30ad6fc282c626.dll",
+      "av.libs/libvpx-1-dd81d2b55a771749d485047772201cc1.dll",
+      "av.libs/libwebp-abac96c4759f9eb9b31588c8a839816c.dll",
+      "av.libs/libwebpmux-0b9545d83accdb1110a7efa5d1c54007.dll",
+      "av.libs/libwinpthread-1-3e9f18fdf7e856e1e9fedd138e84e874.dll",
+      "av.libs/libx264-165-0f71f37cf3f3ee0e2ecac2b06829e9ff.dll",
+      "av.libs/libx265-ee9d492f3fb55d0a3b564bb1bf4f6822.dll",
+      "av.libs/swresample-7-4f9462a1fb73b949ccad2774dd941624.dll",
+      "av.libs/swscale-10-9af0a10ad7003982e48548ff39e98465.dll",
+      "av.libs/zlib1-4d767210e087ff082d94ef0a09ddc7f8.dll"
+    ],
+    "license_files": [
+      "av-19.0.2.dist-info/licenses/AUTHORS.py",
+      "av-19.0.2.dist-info/licenses/AUTHORS.rst",
+      "av-19.0.2.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "wheel": "greenlet-3.5.6-cp312-cp312-win_amd64.whl",
+    "binaries": [
+      "greenlet/_greenlet.cp312-win_amd64.pyd",
+      "greenlet/tests/_test_extension.cp312-win_amd64.pyd",
+      "greenlet/tests/_test_extension_cpp.cp312-win_amd64.pyd"
+    ],
+    "license_files": [
+      "greenlet-3.5.6.dist-info/licenses/LICENSE",
+      "greenlet-3.5.6.dist-info/licenses/LICENSE.PSF"
+    ]
+  },
+  {
+    "wheel": "numpy-2.5.4-cp312-cp312-win_amd64.whl",
+    "binaries": [
+      "numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd",
+      "numpy/linalg/lapack_lite.cp312-win_amd64.pyd",
+      "numpy/linalg/_umath_linalg.cp312-win_amd64.pyd",
+      "numpy/random/bit_generator.cp312-win_amd64.pyd",
+      "numpy/random/mtrand.cp312-win_amd64.pyd",
+      "numpy/random/_bounded_integers.cp312-win_amd64.pyd",
+      "numpy/random/_common.cp312-win_amd64.pyd",
+      "numpy/random/_generator.cp312-win_amd64.pyd",
+      "numpy/random/_mt19937.cp312-win_amd64.pyd",
+      "numpy/random/_pcg64.cp312-win_amd64.pyd",
+      "numpy/random/_philox.cp312-win_amd64.pyd",
+      "numpy/random/_sfc64.cp312-win_amd64.pyd",
+      "numpy/_core/_multiarray_tests.cp312-win_amd64.pyd",
+      "numpy/_core/_multiarray_umath.cp312-win_amd64.pyd",
+      "numpy/_core/_operand_flag_tests.cp312-win_amd64.pyd",
+      "numpy/_core/_rational_tests.cp312-win_amd64.pyd",
+      "numpy/_core/_simd.cp312-win_amd64.pyd",
+      "numpy/_core/_struct_ufunc_tests.cp312-win_amd64.pyd",
+      "numpy/_core/_umath_tests.cp312-win_amd64.pyd",
+      "numpy.libs/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll"
+    ],
+    "license_files": [
+      "numpy/ma/LICENSE",
+      "numpy/random/LICENSE.md",
+      "numpy/_core/include/numpy/random/LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE"
+    ]
+  },
+  {
+    "wheel": "patchright-1.64.2-py3-none-win_amd64.whl",
+    "binaries": [
+      "patchright/driver/node.exe"
+    ],
+    "license_files": [
+      "patchright/driver/LICENSE",
+      "patchright/driver/package/ThirdPartyNotices.txt",
+      "patchright/driver/package/lib/serverRegistry.js.LICENSE",
+      "patchright/driver/package/lib/utilsBundle.js.LICENSE",
+      "patchright/driver/package/lib/webp_codec.LICENSE",
+      "patchright-1.64.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "wheel": "pyee-14.0.0-py3-none-any.whl",
+    "binaries": [],
+    "license_files": [
+      "pyee-14.0.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "wheel": "sherpa_onnx-1.13.8-cp312-cp312-win_amd64.whl",
+    "binaries": [
+      "sherpa_onnx/lib/_sherpa_onnx.cp312-win_amd64.pyd"
+    ],
+    "license_files": [
+      "sherpa_onnx-1.13.8.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "wheel": "sherpa_onnx_core-1.13.8-py3-none-win_amd64.whl",
+    "binaries": [
+      "sherpa_onnx/lib/onnxruntime.dll",
+      "sherpa_onnx/lib/sherpa-onnx-c-api.dll",
+      "sherpa_onnx/lib/sherpa-onnx-cxx-api.dll",
+      "sherpa_onnx_core-1.13.8.data/data/Scripts/onnxruntime.dll",
+      "sherpa_onnx_core-1.13.8.data/data/Scripts/sherpa-onnx-c-api.dll",
+      "sherpa_onnx_core-1.13.8.data/data/Scripts/sherpa-onnx-cxx-api.dll"
+    ],
+    "license_files": []
+  },
+  {
+    "wheel": "typing_extensions-4.15.0-py3-none-any.whl",
+    "binaries": [],
+    "license_files": [
+      "typing_extensions-4.15.0.dist-info/licenses/LICENSE"
+    ]
+  }
+]
